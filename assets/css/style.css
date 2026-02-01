@@ -5,7 +5,6 @@ html, body {
 .container {
     max-width: 970px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 /* Nav menu */
@@ -47,25 +46,90 @@ html, body {
 }
 
 /* Main unit */
-
-
+/* Title */
 .title {
     font-size: 48px;
     margin: 0 0 50px;
-
 }
 
-.text p:not(:last-child){
+.container img {
+    max-width: 970px;
+}
+
+/* About */
+.about {
+    background-color: #E5E5E5;
+    padding: 100px 0;
+}
+.about_section {
+    font-size: 35px;
+    text-align: center;
+}
+
+.text_about p:not(:last-child) {
     margin-bottom: 30px;
     text-align: center;
 }
 
-
-.section_adout {
+.text_about {
     text-align: center;
-    font-size: 35px;
-    margin: 100px 0 50px;
 }
+
+/* Skills */
+.skills_section {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.skills h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+/* icon_block */
+
+.product_list {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 97px;
+}
+
+.icon_block_one {
+    text-align: center;
+    width: 170px;
+    height: 230px;
+}
+
+.icon_block_one img {
+    width: 80px;
+    height: 80px;
+}
+.icon_block_one h4 {
+    color: #828282;
+    margin: 25px 0 60px;
+}
+
+.icon_stars li {
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.icon_stars {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.icon_stars img {
+    width: 25px;
+    height: 25px;
+}
+
+
 
 
 
