@@ -30,6 +30,12 @@ html, body {
 .menu_link {
     text-decoration: none;
     font-size: 18px;
+    line-height: 1.2;
+    color: #828282;
+}
+
+.menu_link:hover {
+    color: black;
 }
 
 .line {
