@@ -76,10 +76,13 @@ html, body {
 }
 
 /* Skills */
+
+.skills {
+    padding: 100px 0 100px;
+}
 .skills_section {
     font-size: 35px;
     text-align: center;
-    margin-top: 100px;
 }
 
 .skills h3 {
@@ -98,17 +101,17 @@ html, body {
     gap: 97px;
 }
 
-.icon_block_one {
+.icon_block {
     text-align: center;
     width: 170px;
     height: 230px;
 }
 
-.icon_block_one img {
+.icon_block img {
     width: 80px;
     height: 80px;
 }
-.icon_block_one h4 {
+.icon_block h4 {
     color: #828282;
     margin: 25px 0 60px;
 }
@@ -129,7 +132,25 @@ html, body {
     height: 25px;
 }
 
+/* Portfolio */
+.portfolio {
+    background-color: #E5E5E5;
+    padding: 100px 0 100px;
+}
 
+
+.portfolio_section {
+    font-size: 35px;
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.first_picture h2 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    margin: 40px 0 70px;
+}
 
 
 
