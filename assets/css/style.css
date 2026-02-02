@@ -78,7 +78,7 @@ html, body {
 /* Skills */
 
 .skills {
-    padding: 100px 0 100px;
+    padding: 100px 0 150px;
 }
 .skills_section {
     font-size: 35px;
@@ -135,7 +135,7 @@ html, body {
 /* Portfolio */
 .portfolio {
     background-color: #E5E5E5;
-    padding: 100px 0 100px;
+    padding: 100px 0 50px;
 }
 
 
@@ -145,12 +145,58 @@ html, body {
     margin: 0 0 50px;
 }
 
-.first_picture h2 {
+.picture h2 {
     font-size: 18px;
     text-align: center;
     font-weight: normal;
     margin: 40px 0 70px;
 }
 
+/* Footer */
 
+.footer {
+    padding: 100px 0 100px;
+}
+
+.contact {
+    text-align: center;
+    font-size: 35px;
+}
+
+.section_contact h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+
+.button {
+    font-size: 18px;
+    font-weight: bold;
+    width: 180px;
+    height: 44px;
+    background: black;
+    border-radius: 100px;
+    border: none;
+    color: #E5E5E5;
+    display: block;
+    margin: 0 auto;
+}
+
+.link_messenger li {
+    display: inline-block;
+    margin: 0  15px;
+}
+.link_messenger {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin:  30px;
+    
+}
+
+.link_messenger img {
+    width: 50px;
+    height: 50px;
+}
 
