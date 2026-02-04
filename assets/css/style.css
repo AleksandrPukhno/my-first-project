@@ -200,3 +200,18 @@ html, body {
     height: 50px;
 }
 
+.instagram {
+    transition: opacity 0.3s;
+}
+
+.instagram:hover {
+    opacity: 0.5;
+}
+
+.facebook {
+    transition: opacity 0.3s;
+}
+
+.facebook:hover {
+    opacity: 0.5;
+}
